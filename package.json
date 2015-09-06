@@ -1,6 +1,6 @@
 {
   "name": "typed-net",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript typings for the core net library",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/weswigham/typed-net#readme",
   "dependencies": {
-    "typed-stream": "1.0.0",
-    "typed-node": "1.0.0"
+    "typed-stream": "^1.0.0",
+    "typed-node": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^1.6.0-beta"
