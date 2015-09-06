@@ -1,4 +1,4 @@
-typed-net
+typed-net [![Build Status](https://travis-ci.org/weswigham/typed-net.svg)](https://travis-ci.org/weswigham/typed-net)
 ============
 
 TypeScript typings for the core net library
