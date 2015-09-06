@@ -1,0 +1,13 @@
+sudo: false
+languages: node_js
+node_js:
+- node
+- iojs
+deploy:
+  provider: npm
+  email: wwigham@gmail.com
+  api_key:
+    secure: DedebEkyGRGPS+SPlhKVyNaXv5BbuAOyc9MASTzrYHYrMPyqVExxjnVKS9aBWWgT1HAQg4FWX0nZljOt0AU3BrCgD3k0lmTaihcNYGsv3IzmjpZ/WZQuKpoAj700zYncWY4wBlOWum9wXD19jFkB7iLzcT/j7TLEW3eWJKQUw4bzNiriKqQG/dnxEL02+2AVgOv3zzMBM41BuxYTpBuSME9kiWnGwliE+tyOBgWGzWpREI9RNPQJzX9T2Wx5vgBDVY66lEMlPGcB1K4wcaJVt8cA1rVcdZFQqaSwb08D6lyj0btoUJVEMe6a8mPFHm4lxJ/gSPlei4NA3ZMfKRYFsYhblgddcC5l7Zwpo09zq9a/T+Yw9Kx1XF17pLspr17adyvN1gkeSEhcu5I51VVUls6DcTSXjhbnyZmBAslPx6YRQKdlu2k6ji3OlUJJ0IWCEPOWQQ2Euhc/1jc+r+X6pdcpn6mD0ssdwQYno5rrhbESjR03rquqP5QlFkKMQFf1Fb21SdIWZnLzKXyFJ/E0Ey+tB2IOwy04Nd74fmVc6rz5BUuBvxAmyPGdrmD6FvXB6+RCWRFX9R2ZINUdvykUm2tPhydAwCMOJZGj/nxnxh4xp7y2Z9+53LSsH9+I6KJrlfMiM8RXeHyxd+ZMrGEeSsXC53tqoEXPDU82TXfYndk=
+  on:
+    tags: true
+    repo: weswigham/typed-net
