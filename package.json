@@ -1,0 +1,29 @@
+{
+  "name": "typed-net",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core net library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-net.git"
+  },
+  "keywords": [
+    "typescript",
+    "net",
+    "typed",
+    "module",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-net/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-net#readme",
+  "dependencies": {
+    "typed-events": "1.0.0"
+  }
+}
